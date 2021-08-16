@@ -1,0 +1,21 @@
+body {
+    background: rgb(238, 238, 238);
+}
+
+img { 
+    width: 700px;
+    padding: 0 70px;
+}
+
+article header p {
+    max-width: 1300px;
+}
+
+article section p {
+    max-width: 1300px;
+}
+
+article  footer {
+    max-width: 1300px;
+}
+
