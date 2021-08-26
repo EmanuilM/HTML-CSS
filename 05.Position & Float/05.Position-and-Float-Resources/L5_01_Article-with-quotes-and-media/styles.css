@@ -1,0 +1,64 @@
+html { 
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Helvetica', sans-serif;
+}
+
+body { 
+    margin: 0;
+    padding: 0 70px;
+    background-color: #EEEEEE;
+}
+
+header {
+    border-bottom: 3px solid black;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+header > p { 
+    text-transform: uppercase;
+}
+
+.site-title { 
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+
+}
+
+article { 
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.right-float { 
+    float: right;
+    margin-left: 10px;
+}
+
+.left-float { 
+    float: left;
+    margin-right: 30px;
+}
+
+img { 
+    border: 3px solid black;
+    padding: 10px;
+}
+
+blockquote { 
+    border-left: 3px solid gray;
+    float: right;
+    width: 34%;
+    padding-left: 30px;
+    color: gray;
+    font-style: italic;
+}
+
+blockquote > p { 
+    font-style: italic;
+    font-weight: bold;
+    float: right;
+}
