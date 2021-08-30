@@ -1,0 +1,49 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+
+
+.login-form { 
+    background: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 3px black;
+    max-width: 400px;
+    height: 200px;
+    margin: 70px auto;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+
+
+label { 
+    position: relative;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+label i {
+    position: absolute;
+    padding-left: 8px;
+    top: 2px;
+}
+
+input { 
+    box-shadow: 0px 0px 3px grey;
+    border: unset;
+    border-radius: 3px;
+    padding-left: 27px;
+    height: 19px;
+}
+
+.login-btn { 
+    background: black;
+    color: white;
+    font-weight: bold;
+    width: 76px;
+    margin-top: 10px;
+    margin-left: 34px;
+    border-radius: 3px;
+    padding: 3px;
+}
